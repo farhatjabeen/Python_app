@@ -2,7 +2,6 @@
 FROM python:3.10 as build
 
 WORKDIR /app
-
 # Copy only the requirements file to optimize caching
 COPY requirements.txt .
 
